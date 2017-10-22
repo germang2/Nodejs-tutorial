@@ -1,0 +1,16 @@
+{
+  "name": "hello_express",
+  "version": "1.0.0",
+  "description": "Hello Word with Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "German Gomez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "jade": "^1.11.0",
+    "pug": "^2.0.0-rc.4"
+  }
+}

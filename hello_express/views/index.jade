@@ -1,0 +1,18 @@
+html
+	head
+		title Página web con Express
+	body
+		h1!= hola
+		p Author
+		p!= user
+		- var arreglo = [1,2,3,4,5];
+			each item in arreglo
+				case item
+					when 2
+						p El item era 2
+					when 4
+						p Ahora es un 4
+					when 5
+						p Ahora es un 5
+					default
+						p Ninguno
